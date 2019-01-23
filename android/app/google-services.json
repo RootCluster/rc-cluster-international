@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "303591396145",
+    "firebase_url": "https://root-cluster.firebaseio.com",
+    "project_id": "root-cluster",
+    "storage_bucket": "root-cluster.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303591396145:android:461723f620f46e26",
+        "android_client_info": {
+          "package_name": "org.incoder.international"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303591396145-2123huklr406djsnt5e8ml965dhpfc5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrbuHF6hrcAgnPV57YQRzQKwhxJj2rKkE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

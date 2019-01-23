@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">International</string>
+    <string name="title_firebase">Firebase</string>
+    <string name="title_facebook">Facebook</string>
+    <string name="title_twitter">Twitter</string>
+    <string name="title_google">Google</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Menu-->
+    <string name="action_title_settings">Settings</string>
+
+    <!--Firebase-->
+    <string name="tab_analytics">Analytics</string>
+    <string name="tab_develop">Develop</string>
+    <string name="tab_grow">Grow</string>
+    <string name="tab_quality">Quality</string>
+
+    <!--Develop-->
+    <string name="authentication">Authentication</string>
+    <string name="database">Database</string>
+    <string name="storage">Storage</string>
+    <string name="hosting">Hosting</string>
+    <string name="functions">Functions</string>
+    <string name="ml_kit">ML Kit</string>
+
+    <!--Analytics-->
+    <string name="dashboard">Dashboard</string>
+    <string name="events">Events</string>
+    <string name="conversions">Conversions</string>
+    <string name="audiences">Audiences</string>
+    <string name="funnels">Funnels</string>
+    <string name="user_properties">User Properties</string>
+    <string name="latest_release">Latest Release</string>
+    <string name="retention">Retention</string>
+    <string name="stream_view">StreamView</string>
+    <string name="debug_view">DebugView</string>
+
+    <!--Grow-->
+    <string name="admob">AdMob</string>
+    <string name="dynamic_links">Dynamic Links</string>
+    <string name="remote_config">Remote Config</string>
+    <string name="in_app_messaging">In-App Messaging</string>
+    <string name="cloud_messaging">Cloud Messaging</string>
+    <string name="a_b_testing">A/B Testing</string>
+    <string name="predictions">Predictions</string>
+
+    <!--Quality-->
+    <string name="crashlytics">Crashlytics</string>
+    <string name="performance">Performance</string>
+    <string name="test_lab">Test Lab</string>
+
+    <!--Google-->
+    <string name="map">Map</string>
+    <string name="font">font</string>
+
+    <!--Twitter-->
+    <string name="advertise">Advertise</string>
+    <string name="publish_and_curate">Publish and curate</string>
+    <string name="analyze">Analyze</string>
+    <string name="engage">Engage</string>
+
+    <!--Facebook-->
+    <string name="account_kit">Account Kit</string>
+    <string name="messenger">Messenger</string>
+    <string name="marketing_api">Marketing API</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook_login">Facebook Login</string>
+
+</resources>

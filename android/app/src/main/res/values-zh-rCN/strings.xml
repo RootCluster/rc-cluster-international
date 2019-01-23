@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">国际化</string>
+    <string name="title_firebase">Firebase</string>
+    <string name="title_facebook">Facebook</string>
+    <string name="title_twitter">Twitter</string>
+    <string name="title_google">Google</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Menu-->
+    <string name="action_title_settings">设置</string>
+
+    <!--Firebase-->
+    <string name="tab_analytics">分析</string>
+    <string name="tab_develop">开发</string>
+    <string name="tab_grow">发展</string>
+    <string name="tab_quality">质量</string>
+
+    <!--Develop-->
+    <string name="authentication">身份验证</string>
+    <string name="database">数据库</string>
+    <string name="storage">存储</string>
+    <string name="hosting">主机</string>
+    <string name="functions">功能</string>
+    <string name="ml_kit">ML Kit</string>
+
+    <!--Analytics-->
+    <string name="dashboard">仪表板</string>
+    <string name="events">事件</string>
+    <string name="conversions">转换</string>
+    <string name="audiences">观众</string>
+    <string name="funnels">漏斗</string>
+    <string name="user_properties">用户属性</string>
+    <string name="latest_release">最新发布</string>
+    <string name="retention">保留</string>
+    <string name="stream_view">流视图</string>
+    <string name="debug_view">调试视图</string>
+
+    <!--Grow-->
+    <string name="admob">AdMob</string>
+    <string name="dynamic_links">动态链接</string>
+    <string name="remote_config">远程配置</string>
+    <string name="in_app_messaging">In-App Messaging</string>
+    <string name="cloud_messaging">云消息传递</string>
+    <string name="a_b_testing">A/B Testing</string>
+    <string name="predictions">预测</string>
+
+    <!--Quality-->
+    <string name="crashlytics">奔溃分析</string>
+    <string name="performance">性能</string>
+    <string name="test_lab">测试 实验室</string>
+
+    <!--Google-->
+    <string name="map">地图</string>
+    <string name="font">字体</string>
+
+    <!--Twitter-->
+    <string name="advertise">广告</string>
+    <string name="publish_and_curate">Publish and curate</string>
+    <string name="analyze">Analyze</string>
+    <string name="engage">Engage</string>
+
+    <!--Facebook-->
+    <string name="account_kit">Account Kit</string>
+    <string name="messenger">Messenger</string>
+    <string name="marketing_api">Marketing API</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook_login">Facebook Login</string>
+</resources>

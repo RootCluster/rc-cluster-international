@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".FacebookFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/account_kit"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_messenger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/messenger"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_marketing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/marketing_api"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_instagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instagram"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_facebook_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/facebook_login"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>

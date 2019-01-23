@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_firebase"
+        android:icon="@drawable/ic_nav_firebase"
+        android:title="@string/title_firebase" />
+
+    <item
+        android:id="@+id/navigation_facebook"
+        android:icon="@drawable/ic_nav_facebook"
+        android:title="@string/title_facebook" />
+
+    <item
+        android:id="@+id/navigation_twitter"
+        android:icon="@drawable/ic_nav_twitter"
+        android:title="@string/title_twitter" />
+    <item
+        android:id="@+id/navigation_google"
+        android:icon="@drawable/ic_nav_google"
+        android:title="@string/title_google" />
+
+</menu>

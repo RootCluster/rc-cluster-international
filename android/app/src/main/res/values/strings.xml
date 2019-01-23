@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">国际化</string>
+    <string name="title_firebase">Firebase</string>
+    <string name="title_facebook">Facebook</string>
+    <string name="title_twitter">Twitter</string>
+    <string name="title_google">Google</string>
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <!--Menu-->
+    <string name="action_title_settings">设置</string>
+
+    <!--Firebase-->
+    <string name="tab_analytics">分析</string>
+    <string name="tab_develop">开发</string>
+    <string name="tab_grow">发展</string>
+    <string name="tab_quality">质量</string>
+
+    <!--Develop-->
+    <string name="authentication">身份验证</string>
+    <string name="database">数据库</string>
+    <string name="storage">存储</string>
+    <string name="hosting">主机</string>
+    <string name="functions">功能</string>
+    <string name="ml_kit">ML Kit</string>
+
+    <!--Analytics-->
+    <string name="dashboard">仪表板</string>
+    <string name="events">事件</string>
+    <string name="conversions">转换</string>
+    <string name="audiences">观众</string>
+    <string name="funnels">漏斗</string>
+    <string name="user_properties">用户属性</string>
+    <string name="latest_release">最新发布</string>
+    <string name="retention">保留</string>
+    <string name="stream_view">流视图</string>
+    <string name="debug_view">调试视图</string>
+
+    <!--Grow-->
+    <string name="admob">AdMob</string>
+    <string name="dynamic_links">动态链接</string>
+    <string name="remote_config">远程配置</string>
+    <string name="in_app_messaging">In-App Messaging</string>
+    <string name="cloud_messaging">云消息传递</string>
+    <string name="a_b_testing">A/B Testing</string>
+    <string name="predictions">预测</string>
+
+    <!--Quality-->
+    <string name="crashlytics">奔溃分析</string>
+    <string name="performance">性能</string>
+    <string name="test_lab">测试 实验室</string>
+
+    <!--Google-->
+    <string name="map">地图</string>
+    <string name="font">字体</string>
+
+    <!--Twitter-->
+    <string name="advertise">Advertise</string>
+    <string name="publish_and_curate">Publish and curate</string>
+    <string name="analyze">Analyze</string>
+    <string name="engage">Engage</string>
+
+    <!--Facebook-->
+    <string name="account_kit">Account Kit</string>
+    <string name="messenger">Messenger</string>
+    <string name="marketing_api">Marketing API</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook_login">Facebook Login</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
