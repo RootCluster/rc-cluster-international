@@ -52,7 +52,9 @@
     <string name="test_lab">测试 实验室</string>
 
     <!--Google-->
-    <string name="map">地图</string>
+    <string name="maps">地图</string>
+    <string name="routes">路线</string>
+    <string name="places">地点</string>
     <string name="font">字体</string>
 
     <!--Twitter-->

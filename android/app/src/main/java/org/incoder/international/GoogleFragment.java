@@ -20,13 +20,9 @@ import androidx.fragment.app.Fragment;
  */
 public class GoogleFragment extends Fragment implements View.OnClickListener {
 
-    private Button mMap;
-    private Button mFont;
-
     public GoogleFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
@@ -38,17 +34,25 @@ public class GoogleFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mMap = view.findViewById(R.id.btn_map);
-        mFont = view.findViewById(R.id.btn_font);
+        Button mMaps = view.findViewById(R.id.btn_maps);
+        Button mRoutes = view.findViewById(R.id.btn_routes);
+        Button mPlaces = view.findViewById(R.id.btn_places);
+        Button mFont = view.findViewById(R.id.btn_font);
 
-        mMap.setOnClickListener(this);
+        mMaps.setOnClickListener(this);
+        mRoutes.setOnClickListener(this);
+        mPlaces.setOnClickListener(this);
         mFont.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.btn_map:
+            case R.id.btn_maps:
+                break;
+            case R.id.btn_routes:
+                break;
+            case R.id.btn_places:
                 break;
             case R.id.btn_font:
                 break;

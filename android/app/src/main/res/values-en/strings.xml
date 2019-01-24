@@ -52,8 +52,10 @@
     <string name="test_lab">Test Lab</string>
 
     <!--Google-->
-    <string name="map">Map</string>
-    <string name="font">font</string>
+    <string name="maps">Maps</string>
+    <string name="routes">Routes</string>
+    <string name="places">Places</string>
+    <string name="font">Font</string>
 
     <!--Twitter-->
     <string name="advertise">Advertise</string>

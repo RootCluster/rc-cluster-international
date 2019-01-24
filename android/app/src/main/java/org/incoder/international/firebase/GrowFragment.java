@@ -21,14 +21,6 @@ import androidx.fragment.app.Fragment;
  */
 public class GrowFragment extends Fragment implements View.OnClickListener {
 
-    private Button mPredictions;
-    private Button mTesting;
-    private Button mCloudMessaging;
-    private Button mInAppMessaging;
-    private Button mRemoteConfig;
-    private Button mDynamicLinks;
-    private Button mAdMob;
-
     public GrowFragment() {
         // Required empty public constructor
     }
@@ -43,13 +35,13 @@ public class GrowFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mPredictions = view.findViewById(R.id.btn_predictions);
-        mTesting = view.findViewById(R.id.btn_testing);
-        mCloudMessaging = view.findViewById(R.id.btn_cloud_messaging);
-        mInAppMessaging = view.findViewById(R.id.btn_in_app_messaging);
-        mRemoteConfig = view.findViewById(R.id.btn_remote_config);
-        mDynamicLinks = view.findViewById(R.id.btn_dynamic_links);
-        mAdMob = view.findViewById(R.id.btn_admob);
+        Button mPredictions = view.findViewById(R.id.btn_predictions);
+        Button mTesting = view.findViewById(R.id.btn_testing);
+        Button mCloudMessaging = view.findViewById(R.id.btn_cloud_messaging);
+        Button mInAppMessaging = view.findViewById(R.id.btn_in_app_messaging);
+        Button mRemoteConfig = view.findViewById(R.id.btn_remote_config);
+        Button mDynamicLinks = view.findViewById(R.id.btn_dynamic_links);
+        Button mAdMob = view.findViewById(R.id.btn_admob);
 
         mPredictions.setOnClickListener(this);
         mTesting.setOnClickListener(this);

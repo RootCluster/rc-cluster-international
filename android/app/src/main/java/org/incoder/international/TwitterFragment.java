@@ -20,15 +20,9 @@ import androidx.fragment.app.Fragment;
  */
 public class TwitterFragment extends Fragment implements View.OnClickListener {
 
-    private Button mAdvertise;
-    private Button mPublish;
-    private Button mAnalyze;
-    private Button mEngage;
-
     public TwitterFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
@@ -40,10 +34,10 @@ public class TwitterFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mAdvertise = view.findViewById(R.id.btn_advertise);
-        mPublish = view.findViewById(R.id.btn_publish);
-        mAnalyze = view.findViewById(R.id.btn_analyze);
-        mEngage = view.findViewById(R.id.btn_engage);
+        Button mAdvertise = view.findViewById(R.id.btn_advertise);
+        Button mPublish = view.findViewById(R.id.btn_publish);
+        Button mAnalyze = view.findViewById(R.id.btn_analyze);
+        Button mEngage = view.findViewById(R.id.btn_engage);
 
         mAdvertise.setOnClickListener(this);
         mPublish.setOnClickListener(this);

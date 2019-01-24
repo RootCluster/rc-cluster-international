@@ -21,10 +21,6 @@ import androidx.fragment.app.Fragment;
  */
 public class QualityFragment extends Fragment implements View.OnClickListener {
 
-    private Button mCrashlytics;
-    private Button mPerformance;
-    private Button mTestLab;
-
     public QualityFragment() {
         // Required empty public constructor
     }
@@ -40,9 +36,9 @@ public class QualityFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mCrashlytics = view.findViewById(R.id.btn_crashlytics);
-        mPerformance = view.findViewById(R.id.btn_performance);
-        mTestLab = view.findViewById(R.id.btn_test_lab);
+        Button mCrashlytics = view.findViewById(R.id.btn_crashlytics);
+        Button mPerformance = view.findViewById(R.id.btn_performance);
+        Button mTestLab = view.findViewById(R.id.btn_test_lab);
 
         mCrashlytics.setOnClickListener(this);
         mPerformance.setOnClickListener(this);

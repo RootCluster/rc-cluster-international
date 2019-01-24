@@ -21,21 +21,9 @@ import androidx.fragment.app.Fragment;
  */
 public class AnalyticsFragment extends Fragment implements View.OnClickListener {
 
-    private Button mDashboard;
-    private Button mEvents;
-    private Button mConversions;
-    private Button mAudiences;
-    private Button mFunnels;
-    private Button mUserProperties;
-    private Button mLatestRelease;
-    private Button mRetention;
-    private Button mStreamView;
-    private Button mDebugView;
-
     public AnalyticsFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
@@ -47,16 +35,16 @@ public class AnalyticsFragment extends Fragment implements View.OnClickListener 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mDashboard = view.findViewById(R.id.btn_dashboard);
-        mEvents = view.findViewById(R.id.btn_events);
-        mConversions = view.findViewById(R.id.btn_conversions);
-        mAudiences = view.findViewById(R.id.btn_audiences);
-        mFunnels = view.findViewById(R.id.btn_funnels);
-        mUserProperties = view.findViewById(R.id.btn_user_properties);
-        mLatestRelease = view.findViewById(R.id.btn_latest_release);
-        mRetention = view.findViewById(R.id.btn_retention);
-        mStreamView = view.findViewById(R.id.btn_stream_view);
-        mDebugView = view.findViewById(R.id.btn_debug_view);
+        Button mDashboard = view.findViewById(R.id.btn_dashboard);
+        Button mEvents = view.findViewById(R.id.btn_events);
+        Button mConversions = view.findViewById(R.id.btn_conversions);
+        Button mAudiences = view.findViewById(R.id.btn_audiences);
+        Button mFunnels = view.findViewById(R.id.btn_funnels);
+        Button mUserProperties = view.findViewById(R.id.btn_user_properties);
+        Button mLatestRelease = view.findViewById(R.id.btn_latest_release);
+        Button mRetention = view.findViewById(R.id.btn_retention);
+        Button mStreamView = view.findViewById(R.id.btn_stream_view);
+        Button mDebugView = view.findViewById(R.id.btn_debug_view);
 
         mDashboard.setOnClickListener(this);
         mEvents.setOnClickListener(this);

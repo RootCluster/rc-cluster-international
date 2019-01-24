@@ -8,10 +8,14 @@ import android.view.ViewGroup;
 
 import org.incoder.international.R;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 /**
- * A simple {@link Fragment} subclass.
+ * CloudMessagingFragment
+ *
+ * @author : Jerry xu
+ * @date : 2019/01/23  10:28
  */
 public class CloudMessagingFragment extends Fragment {
 
@@ -22,7 +26,7 @@ public class CloudMessagingFragment extends Fragment {
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_cloud_messaging, container, false);
