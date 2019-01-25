@@ -15,6 +15,7 @@
             android:id="@+id/btn_advertise"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/advertise"
             android:textAllCaps="false" />
 
@@ -22,6 +23,7 @@
             android:id="@+id/btn_publish"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/publish_and_curate"
             android:textAllCaps="false" />
 
@@ -29,6 +31,7 @@
             android:id="@+id/btn_analyze"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/analyze"
             android:textAllCaps="false" />
 
@@ -36,6 +39,7 @@
             android:id="@+id/btn_engage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/engage"
             android:textAllCaps="false" />
     </LinearLayout>

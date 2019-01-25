@@ -22,6 +22,7 @@
             android:id="@+id/btn_routes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/routes"
             android:textAllCaps="false" />
 
@@ -36,6 +37,7 @@
             android:id="@+id/btn_font"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/font"
             android:textAllCaps="false" />
     </LinearLayout>

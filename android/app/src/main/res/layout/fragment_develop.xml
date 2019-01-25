@@ -23,6 +23,7 @@
             android:id="@+id/btn_database"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/database"
             android:textAllCaps="false" />
 
@@ -30,6 +31,7 @@
             android:id="@+id/btn_storage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/storage"
             android:textAllCaps="false" />
 
@@ -37,6 +39,7 @@
             android:id="@+id/btn_hosting"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/hosting"
             android:textAllCaps="false" />
 
@@ -44,6 +47,7 @@
             android:id="@+id/btn_functions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/functions"
             android:textAllCaps="false" />
 
@@ -51,6 +55,7 @@
             android:id="@+id/btn_ml_kit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/ml_kit"
             android:textAllCaps="false" />
     </LinearLayout>

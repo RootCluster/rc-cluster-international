@@ -15,6 +15,7 @@
             android:id="@+id/btn_crashlytics"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/crashlytics"
             android:textAllCaps="false" />
 
@@ -22,6 +23,7 @@
             android:id="@+id/btn_performance"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/performance"
             android:textAllCaps="false" />
 
@@ -29,6 +31,7 @@
             android:id="@+id/btn_test_lab"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/test_lab"
             android:textAllCaps="false" />
 

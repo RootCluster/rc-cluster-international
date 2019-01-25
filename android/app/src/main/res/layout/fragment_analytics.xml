@@ -15,6 +15,7 @@
             android:id="@+id/btn_dashboard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/dashboard"
             android:textAllCaps="false" />
 
@@ -22,6 +23,7 @@
             android:id="@+id/btn_events"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/events"
             android:textAllCaps="false" />
 
@@ -29,6 +31,7 @@
             android:id="@+id/btn_conversions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/conversions"
             android:textAllCaps="false" />
 
@@ -36,6 +39,7 @@
             android:id="@+id/btn_audiences"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/audiences"
             android:textAllCaps="false" />
 
@@ -43,6 +47,7 @@
             android:id="@+id/btn_funnels"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/funnels"
             android:textAllCaps="false" />
 
@@ -50,6 +55,7 @@
             android:id="@+id/btn_user_properties"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/user_properties"
             android:textAllCaps="false" />
 
@@ -57,6 +63,7 @@
             android:id="@+id/btn_latest_release"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/latest_release"
             android:textAllCaps="false" />
 
@@ -64,6 +71,7 @@
             android:id="@+id/btn_retention"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/retention"
             android:textAllCaps="false" />
 
@@ -71,6 +79,7 @@
             android:id="@+id/btn_stream_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/stream_view"
             android:textAllCaps="false" />
 
@@ -78,6 +87,7 @@
             android:id="@+id/btn_debug_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/debug_view"
             android:textAllCaps="false" />
     </LinearLayout>

@@ -15,6 +15,7 @@
             android:id="@+id/btn_predictions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/predictions"
             android:textAllCaps="false" />
 
@@ -22,6 +23,7 @@
             android:id="@+id/btn_testing"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/a_b_testing"
             android:textAllCaps="false" />
 
@@ -29,6 +31,7 @@
             android:id="@+id/btn_cloud_messaging"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/cloud_messaging"
             android:textAllCaps="false" />
 
@@ -36,6 +39,7 @@
             android:id="@+id/btn_in_app_messaging"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/in_app_messaging"
             android:textAllCaps="false" />
 
@@ -43,6 +47,7 @@
             android:id="@+id/btn_remote_config"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/remote_config"
             android:textAllCaps="false" />
 
@@ -50,6 +55,7 @@
             android:id="@+id/btn_dynamic_links"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/dynamic_links"
             android:textAllCaps="false" />
 
@@ -57,6 +63,7 @@
             android:id="@+id/btn_admob"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="@string/admob"
             android:textAllCaps="false" />
 
