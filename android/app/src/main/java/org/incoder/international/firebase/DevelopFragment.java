@@ -1,3 +1,19 @@
+/*
+ * Copyright (C) 2019 The Jerry xu Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package org.incoder.international.firebase;
 
 
@@ -62,26 +78,6 @@ public class DevelopFragment extends Fragment implements View.OnClickListener {
         mMlKit.setOnClickListener(this);
     }
 
-    public void createSignInIntent() {
-        List<AuthUI.IdpConfig> providers = Arrays.asList(
-                new AuthUI.IdpConfig.EmailBuilder().build(),
-                new AuthUI.IdpConfig.PhoneBuilder().build(),
-                new AuthUI.IdpConfig.GoogleBuilder().build(),
-                new AuthUI.IdpConfig.FacebookBuilder().build(),
-                new AuthUI.IdpConfig.TwitterBuilder().build()
-        );
-        // [START auth_fui_theme_logo]
-        startActivityForResult(
-                AuthUI.getInstance()
-                        .createSignInIntentBuilder()
-                        .setAvailableProviders(providers)
-                        .setLogo(R.mipmap.ic_launcher)      // Set logo drawable
-                        .setTheme(R.style.AppTheme)      // Set theme
-                        .build(),
-                RC_SIGN_IN);
-        // [END auth_fui_theme_logo]
-    }
-
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
@@ -109,6 +105,27 @@ public class DevelopFragment extends Fragment implements View.OnClickListener {
             default:
                 break;
         }
+    }
+
+    private void createSignInIntent() {
+        List<AuthUI.IdpConfig> providers = Arrays.asList(
+                new AuthUI.IdpConfig.EmailBuilder().build(),
+                new AuthUI.IdpConfig.PhoneBuilder().build(),
+                new AuthUI.IdpConfig.GoogleBuilder().build(),
+                new AuthUI.IdpConfig.FacebookBuilder().build(),
+                new AuthUI.IdpConfig.TwitterBuilder().build()
+        );
+        // [START auth_fui_theme_logo]
+        startActivityForResult(
+                AuthUI.getInstance()
+                        .createSignInIntentBuilder()
+                        .setAvailableProviders(providers)
+                        // Set logo drawable
+                        .setLogo(R.mipmap.ic_launcher)
+                        // Set theme
+                        .setTheme(R.style.AppDefaultTheme)
+                        .build(), RC_SIGN_IN);
+        // [END auth_fui_theme_logo]
     }
 
     @Override
